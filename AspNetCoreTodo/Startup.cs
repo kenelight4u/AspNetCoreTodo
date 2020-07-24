@@ -36,8 +36,10 @@ namespace AspNetCoreTodo
             services.AddControllersWithViews();
             services.AddRazorPages();
 
-            services.AddSingleton<ITodoItemService, FakeTodoItemService>();
-            // services.AddMvc();
+            // I used it for testing initially, when the database is not configured
+            // services.AddSingleton<ITodoItemService, FakeTodoItemService>();
+            services.AddScoped<ITodoItemService, TodoItemService>();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
