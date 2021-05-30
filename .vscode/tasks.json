@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/AspNetCoreTodo/AspNetCoreTodo.csproj",
+                "${workspaceFolder}/src/AspNetCoreTodo/AspNetCoreTodo.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/AspNetCoreTodo/AspNetCoreTodo.csproj",
+                "${workspaceFolder}/src/AspNetCoreTodo/AspNetCoreTodo.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/AspNetCoreTodo/AspNetCoreTodo.csproj",
+                "${workspaceFolder}/src/AspNetCoreTodo/AspNetCoreTodo.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
