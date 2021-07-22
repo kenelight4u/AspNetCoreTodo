@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rGkWn5BR2X9icdgjmRX7SBTQln4e4z5w0OqkaO9UU6yKTcFOi2x3nIfAOpr+4SbgDsjD6MvDsDxxrPTLoK2YRw==",
+  "dgSpecHash": "FLoeuoC5B5QDkQ6Itb9IzfEgBo3FthBytKHFILsHHEdcD52ZRI1kGj69OVFjILU7lcccZFizt762xdGSP0IdUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\KLITEGROUP\\source\\repos\\ASP.VS.VSCODE\\AspNetCoreTodo\\src\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
   "expectedPackageFiles": [
@@ -150,7 +150,8 @@
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

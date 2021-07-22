@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - AspNetCoreTodo</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 <body>
     <header>
@@ -23,13 +24,15 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Todo" asp-action="Index">My To-dos</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Todo" asp-action="Index">My To-Dos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        
+
                     </ul>
+                    @*@await Html.PartialAsync("_LoginPartial")*@
+                    @await Html.PartialAsync("_AdminActionsPartial")
                 </div>
             </div>
         </nav>
@@ -48,6 +51,8 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

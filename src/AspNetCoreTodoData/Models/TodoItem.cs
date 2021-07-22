@@ -14,8 +14,7 @@ namespace AspNetCoreTodoData.Models
         [Required]
         public string Title { get; set; }
 
-        //[DataType(DataType.Date)]
-        //[DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        //? marks the DueAt property as nullable
         public DateTimeOffset? DueAt { get; set; }  
     }
 }

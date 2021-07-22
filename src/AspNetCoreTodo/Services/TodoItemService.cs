@@ -1,5 +1,4 @@
-﻿using AspNetCoreTodo.Data;
-using AspNetCoreTodoData.Data;
+﻿using AspNetCoreTodoData.Data;
 using AspNetCoreTodoData.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,9 +10,9 @@ namespace AspNetCoreTodo.Services
 {
     public class TodoItemService : ITodoItemService
     {
-        private readonly TodoItemContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public TodoItemService(TodoItemContext context)
+        public TodoItemService( ApplicationDbContext context )
         {
             _context = context;
         }
@@ -29,6 +28,7 @@ namespace AspNetCoreTodo.Services
 
             var saveResult = await _context.SaveChangesAsync();
 
+            //one is equivalent to true, our method is returning true or false
             return saveResult == 1;
         }
 
@@ -43,6 +43,7 @@ namespace AspNetCoreTodo.Services
 
             if (item == null) return false;
 
+            //actually, the item is not deleted in the datebase, just assign true ie cannot be shown to the user
             item.IsDone = true;
 
             var saveResult = await _context.SaveChangesAsync();

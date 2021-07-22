@@ -19,4 +19,10 @@ function markCompleted(checkbox) {
     form.submit();
 }
 
-$('.datepicker').pickadate();
+//I will change the date picker, it is not given me what I want
+
+//$('.datepicker').pickadate();
+
+$(function () {
+    $("#datepicker").datepicker();
+});

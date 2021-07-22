@@ -1,6 +1,5 @@
 using System;
 using System.Threading.Tasks;
-using AspNetCoreTodo.Data;
 using AspNetCoreTodo.Models;
 using AspNetCoreTodo.Services;
 using AspNetCoreTodoData.Models;
@@ -26,6 +25,7 @@ namespace AspNetCoreTodo.Controllers
         public async Task<IActionResult> Index()
         {
             var currentUser = await _userManager.GetUserAsync(User);
+
             if (currentUser == null)
             {
                 return Challenge();
@@ -56,6 +56,7 @@ namespace AspNetCoreTodo.Controllers
             }
 
             var successful = await _todoItemservice.AddItemAsync(newItem, currentUser);
+
             if(!successful)
             {
                 return BadRequest("Could not add item.");
@@ -73,6 +74,7 @@ namespace AspNetCoreTodo.Controllers
             }
 
             var currentUser = await _userManager.GetUserAsync(User);
+
             if (currentUser == null) 
             {
                 return RedirectToAction("Index");

@@ -5,7 +5,7 @@ using AspNetCoreTodoData.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AspNetCoreTodo.Data
+namespace AspNetCoreTodoData.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
@@ -13,6 +13,8 @@ namespace AspNetCoreTodo.Data
             : base(options)
         {
         }
+
+        public DbSet<TodoItem> Items { get; set; }
 
     }
 }
