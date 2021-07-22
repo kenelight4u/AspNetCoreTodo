@@ -22,6 +22,7 @@ namespace AspNetCoreTodo.Services
             newItem.Id = Guid.NewGuid();
             newItem.IsDone = false;
             newItem.UserId = user.Id;
+            //Have implemented the date picker
             //newItem.DueAt = DateTimeOffset.Now.AddDays(3);
 
             _context.Items.Add(newItem);

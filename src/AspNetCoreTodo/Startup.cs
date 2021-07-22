@@ -40,16 +40,9 @@ namespace AspNetCoreTodo
                 }
              ));
 
-            services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-
-            //After seeding I was having issue logging in because there is no way to confirm account, base on 
-            //that, I have to set the RequiredConfirmedAccount to false
-            services.Configure<IdentityOptions>(options =>
-            {
-                options.SignIn.RequireConfirmedAccount = false;
-            });
 
             services.AddControllersWithViews();
 
@@ -67,8 +60,8 @@ namespace AspNetCoreTodo
             {
                 app.UseDeveloperExceptionPage();
 
-                //I commented this out because, I'm making use of netappcore3.1 with EF Core 5.0 which gives me an error
-                //app.UseDatabaseErrorPage();
+                //I commented this out before now because, I'm making use of netappcore3.1 with EF Core 5.0 which gives me an error but have downgraded to the app version then i have to uncomment
+                app.UseDatabaseErrorPage();
             }
             else
             {

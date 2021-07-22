@@ -21,7 +21,8 @@ namespace AspNetCoreTodo.Controllers
             _todoItemservice = todoItemservice;
             _userManager = userManager;
         }
-        
+
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var currentUser = await _userManager.GetUserAsync(User);
@@ -41,6 +42,7 @@ namespace AspNetCoreTodo.Controllers
             return View(model);
         }
 
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddItem(TodoItem newItem)
         {
@@ -65,6 +67,7 @@ namespace AspNetCoreTodo.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> MarkDone(Guid id)
         {
