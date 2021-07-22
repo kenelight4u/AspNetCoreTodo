@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-using AspNetCoreTodo.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -32,37 +31,6 @@ namespace AspNetCoreTodo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            /*var builder = new SqlConnectionStringBuilder();
-            builder.ConnectionString = 
-                Configuration.GetConnectionString("AspNetCoreTodoConnection");
-                builder.UserID = Configuration[ "User Id" ];
-                builder.Password = Configuration[ "Password" ];
-
-            services.AddDbContextPool<TodoItemContext>(
-                options => options.UseSqlServer(builder.ConnectionString,
-                
-                sqlServerOptions => {
-                    sqlServerOptions.MigrationsAssembly("AspNetCoreTodoData");
-                }
-            ));
-
-            services.AddDbContextPool<ApplicationDbContext>(
-                options => options.UseSqlServer(builder.ConnectionString,
-
-                sqlServerOptions => {
-                    sqlServerOptions.MigrationsAssembly("AspNetCoreTodoData");
-                }
-            )); */
-            
-
-            services.AddDbContextPool<TodoItemContext>(
-                options => options.UseSqlServer(Configuration.GetConnectionString("AspNetCoreTodoConnection"),
-
-                sqlServerOptions => {
-                    sqlServerOptions.MigrationsAssembly("AspNetCoreTodoData");
-                }
-            ));
-
             services.AddDbContextPool<ApplicationDbContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString("AspNetCoreTodoConnection"),
 
@@ -72,16 +40,24 @@ namespace AspNetCoreTodo
                 }
              ));
 
-            //services.AddIdentity<ApplicationUser, IdentityRole>()
-            //    .AddEntityFrameworkStores<ApplicationDbContext>()
-            //    .AddDefaultTokenProviders();
-
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            //After seeding I was having issue logging in because there is no way to confirm account, base on 
+            //that, I have to set the RequiredConfirmedAccount to false
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.SignIn.RequireConfirmedAccount = false;
+            });
+
             services.AddControllersWithViews();
 
             services.AddRazorPages();
-           services.AddScoped<ITodoItemService, TodoItemService>();
+
+            services.AddAuthentication();
+
+            services.AddScoped<ITodoItemService, TodoItemService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

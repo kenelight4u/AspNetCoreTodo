@@ -248,7 +248,6 @@ C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\bin\Debug\netcoreapp3.1\AspNetCoreTodoData.dll
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\bin\Debug\netcoreapp3.1\AspNetCoreTodoData.pdb
-C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\AspNetCoreTodo.csprojAssemblyReference.cache
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\AspNetCoreTodo.AssemblyInfoInputs.cache
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\AspNetCoreTodo.AssemblyInfo.cs
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\AspNetCoreTodo.csproj.CoreCompileInputs.cache
@@ -280,3 +279,6 @@ C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\AspNetCoreTodo.pdb
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\AspNetCoreTodo.genruntimeconfig.cache
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\Razor\Views\Todo\AddItemPartial.cshtml.g.cs
+C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\Razor\Views\ManageUsers\Index.cshtml.g.cs
+C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminActionsPartial.cshtml.g.cs
+C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\AspNetCoreTodo.csproj.AssemblyReference.cache

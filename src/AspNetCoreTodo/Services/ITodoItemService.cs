@@ -1,6 +1,5 @@
 using System;
 using System.Threading.Tasks;
-using AspNetCoreTodo.Data;
 using AspNetCoreTodoData.Models;
 
 namespace AspNetCoreTodo.Services
