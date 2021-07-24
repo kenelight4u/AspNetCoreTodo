@@ -44,12 +44,17 @@ namespace AspNetCoreTodo
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            //I saved the credentials with user secret manager
+            //I saved the credentials with user secret manager, I'm using IdentityUser
             services.AddAuthentication().AddGoogle(googleOptions =>
             {
                 googleOptions.ClientId = Configuration["Authentication:Google:ClientId"];
                 googleOptions.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
-            });
+            })
+            .AddFacebook(facebookOptions =>
+             {
+                 facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+                 facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+             });
 
             services.AddControllersWithViews();
 

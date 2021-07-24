@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EcljIs+mDoq3WmaDrNx6W6vesrqrUxg6FeXY6B6RvpgvnTn201T3B1sU5DiYnwAN4aPeCsNMdCUR3UPUx25ICQ==",
+  "dgSpecHash": "I89CJ28seOCOsY6F9QF55RbcuU7MuIPMrRjf7jy6dYAMjYdUtafJoRwOxMLLI4VyNEnEL2U5W5ZDGApXV4OZgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\KLITEGROUP\\source\\repos\\ASP.VS.VSCODE\\AspNetCoreTodo\\src\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\humanizer.core.zh-cn\\2.8.26\\humanizer.core.zh-cn.2.8.26.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\humanizer.core.zh-hans\\2.8.26\\humanizer.core.zh-hans.2.8.26.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\humanizer.core.zh-hant\\2.8.26\\humanizer.core.zh-hant.2.8.26.nupkg.sha512",
+    "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.17\\microsoft.aspnetcore.authentication.facebook.3.1.17.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.17\\microsoft.aspnetcore.authentication.google.3.1.17.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.17\\microsoft.aspnetcore.cryptography.internal.3.1.17.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.17\\microsoft.aspnetcore.cryptography.keyderivation.3.1.17.nupkg.sha512",
