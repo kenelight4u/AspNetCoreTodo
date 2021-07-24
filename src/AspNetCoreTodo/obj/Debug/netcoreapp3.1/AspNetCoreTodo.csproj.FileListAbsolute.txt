@@ -282,3 +282,4 @@ C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\obj\Debug\netcoreapp3.1\AspNetCoreTodo.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll

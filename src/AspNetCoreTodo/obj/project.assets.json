@@ -544,6 +544,18 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Facebook/3.1.17": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.Google/3.1.17": {
         "type": "package",
         "compile": {
@@ -2733,6 +2745,21 @@
         "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/3.1.17": {
+      "sha512": "XM9FF9aYdHeikbBzr5XxqwcjwLcHAJki5wqmK8GcSwkMctvWGSKF65qSF3ceQhT91tf/DzkCGq8xqvkAHxAfGw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/3.1.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.3.1.17.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Google/3.1.17": {
@@ -6924,6 +6951,7 @@
     ".NETCoreApp,Version=v3.1": [
       "AspNetCoreTodoData >= 1.0.0",
       "Humanizer >= 2.8.26",
+      "Microsoft.AspNetCore.Authentication.Facebook >= 3.1.17",
       "Microsoft.AspNetCore.Authentication.Google >= 3.1.17",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.17",
@@ -6978,6 +7006,10 @@
           "Humanizer": {
             "target": "Package",
             "version": "[2.8.26, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Facebook": {
+            "target": "Package",
+            "version": "[3.1.17, )"
           },
           "Microsoft.AspNetCore.Authentication.Google": {
             "target": "Package",
