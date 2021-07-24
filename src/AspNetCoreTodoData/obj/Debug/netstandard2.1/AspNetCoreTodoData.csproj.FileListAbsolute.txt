@@ -6,3 +6,4 @@ C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodo
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodoData\obj\Debug\netstandard2.1\AspNetCoreTodoData.csproj.CoreCompileInputs.cache
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodoData\obj\Debug\netstandard2.1\AspNetCoreTodoData.dll
 C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodoData\obj\Debug\netstandard2.1\AspNetCoreTodoData.pdb
+C:\Users\KLITEGROUP\source\repos\ASP.VS.VSCODE\AspNetCoreTodo\src\AspNetCoreTodoData\obj\Debug\netstandard2.1\AspNetCoreTodoData.csproj.AssemblyReference.cache

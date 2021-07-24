@@ -544,6 +544,18 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/3.1.17": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.17": {
         "type": "package",
         "compile": {
@@ -2721,6 +2733,21 @@
         "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/3.1.17": {
+      "sha512": "U+GYbzmkGcSvtxAZNPb9GHYqB6NLBpqJ1QGgDjVt3DSMXPAobDxj5otF3wH4qnqMvo2QMc7j6cYVjqHpRwVcyw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/3.1.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.3.1.17.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.17": {
@@ -6897,6 +6924,7 @@
     ".NETCoreApp,Version=v3.1": [
       "AspNetCoreTodoData >= 1.0.0",
       "Humanizer >= 2.8.26",
+      "Microsoft.AspNetCore.Authentication.Google >= 3.1.17",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.17",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.17",
@@ -6951,6 +6979,10 @@
             "target": "Package",
             "version": "[2.8.26, )"
           },
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[3.1.17, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.17, )"
@@ -6986,12 +7018,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7000,7 +7026,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

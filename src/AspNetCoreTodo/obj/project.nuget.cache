@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bJm7Ei9AZERvsL9NHWe9rYsaojyF1HHKQE4IlBa/vEVgIrcnwc6v2xmoJu7KVscqzVO2CUw6Wb4+TqPKaee2Gw==",
+  "dgSpecHash": "EcljIs+mDoq3WmaDrNx6W6vesrqrUxg6FeXY6B6RvpgvnTn201T3B1sU5DiYnwAN4aPeCsNMdCUR3UPUx25ICQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\KLITEGROUP\\source\\repos\\ASP.VS.VSCODE\\AspNetCoreTodo\\src\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\humanizer.core.zh-cn\\2.8.26\\humanizer.core.zh-cn.2.8.26.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\humanizer.core.zh-hans\\2.8.26\\humanizer.core.zh-hans.2.8.26.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\humanizer.core.zh-hant\\2.8.26\\humanizer.core.zh-hant.2.8.26.nupkg.sha512",
+    "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.17\\microsoft.aspnetcore.authentication.google.3.1.17.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.17\\microsoft.aspnetcore.cryptography.internal.3.1.17.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.17\\microsoft.aspnetcore.cryptography.keyderivation.3.1.17.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.17\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.17.nupkg.sha512",
@@ -154,8 +155,7 @@
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\KLITEGROUP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\KLITEGROUP\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
